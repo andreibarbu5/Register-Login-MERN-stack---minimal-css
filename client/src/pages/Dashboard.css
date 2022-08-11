@@ -1,0 +1,39 @@
+* {
+  background-color: rgb(129, 124, 161);
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+.input input {
+  border: 0;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  padding-left: 2rem;
+  margin-right: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#but {
+  width: 6rem;
+  padding: 0;
+}
